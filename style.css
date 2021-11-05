@@ -23,38 +23,54 @@ header {
     min-width: 150px;
     height: 300px;
     padding: 30px;
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 5px 50px 10px 50px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.199);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.200);
 }
 
 header > h1 {
     font-family: var(--fonte-titulo);
+    min-width: 150px;
     font-size: 3.5em;
     text-align: center;
     font-weight: normal;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.199);
 }
 
 header > p {
     font-family: var(--fonte-titulo);
     font-size: 2em;
+    min-width: 150px;
     text-align: center;
     font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.199);
 }
 
 .img_01 {
-    min-width: 150px;
+    max-width: 150px;
     display: block;
     margin: auto;
     text-align: center;
 }
 
-main {
-    background-color: rgba(212, 200, 224, 0.452);
-    min-width: 150px;
-    height: 400px;
+.conteiner {
+    background-color: rgba(245, 245, 220, 0.377);
+    margin: 5px 50px 20px 50px;
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
+
+.bloco {
+    background-color: rgba(153, 185, 216, 0.589);
+    width: 200px;
+    border-radius: 30px;
+    margin: 10px 43px 10px 43px;
+    text-align: center;
+    padding: 40px 10px 40px 10px;
+}
+
